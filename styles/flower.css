@@ -82,9 +82,48 @@
 }
 
 
+
+
 /* responsive part */
 
+@media screen and (max-width:576px) {
 
+    .navbar{
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    .nav-item{
+        display: none;
+    }
+
+     .banner-container {
+        flex-direction: column-reverse; 
+        align-items: center;
+        text-align: left;
+        /* margin-top: 28px; */
+    }
+
+    
+    .banner-image img {
+        width: 100%;
+        max-width: 395px;
+        max-height: 245px;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        padding-left: 10px;
+    }
+
+    .banner-description {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+}
 
 
 

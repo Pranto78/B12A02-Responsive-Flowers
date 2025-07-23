@@ -1,0 +1,57 @@
+/* shared Design */
+
+.display-flex{
+    display: flex;
+}
+
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+    max-width: 1140px;
+    max-height: 71px;
+    margin: 0 auto;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+    width: 135px;
+    height: 82px;
+}
+
+
+
+.nav-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    
+}
+
+
+.nav-items li, a{
+    text-decoration: none;
+    list-style: none;
+    color: #8987A1;
+}
+
+.home{
+
+    color: black;
+    font-weight: bold;
+}
+
+.cart{
+    color: black;
+    font-size: 100;
+}
+
+
+
+
+
+
